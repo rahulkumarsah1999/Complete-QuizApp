@@ -7,6 +7,7 @@ class QuizOproBackground extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       body: Container(
         width: double.infinity,
         height: double.infinity,
@@ -15,7 +16,7 @@ class QuizOproBackground extends StatelessWidget {
            image: AssetImage('assets/images/background.png'),
            fit: BoxFit.cover,
            colorFilter: ColorFilter.mode(
-               Colors.white.withValues(alpha: 0.2),
+               Colors.black.withValues(alpha: 0.5),
            BlendMode.darken,
            ),
          ),

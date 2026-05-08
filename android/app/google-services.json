@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "528476584592",
+    "project_id": "quizopro",
+    "storage_bucket": "quizopro.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528476584592:android:6c0511a526f97a1062f615",
+        "android_client_info": {
+          "package_name": "com.example.quiz_app_with_gemini"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-UxQg_qDjLT9lCpSXYbxpSzGanwCqt9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

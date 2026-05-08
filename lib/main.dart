@@ -1,24 +1,33 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:get/get.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:quiz_app_with_gemini/features/controllers/history_controller.dart';
+import 'package:quiz_app_with_gemini/services/wrapper.dart';
+import 'features/screens/home_screen.dart';
 
-import 'features/screens/onboarding_screen.dart';
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
 
-void main() {
+  // Register before runApp so Get.find<HistoryController>() always works
+  Get.put(HistoryController(), permanent: true);
+
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: OnboardingScreen(),
+      initialRoute: "/",
+      getPages: [
+        GetPage(name: "/", page: () => Wrapper()),
+        GetPage(name: "/home", page: () => HomeScreen()),
+      ],
     );
   }
 }
-
-
-
-

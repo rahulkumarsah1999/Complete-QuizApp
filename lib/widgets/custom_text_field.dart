@@ -60,7 +60,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
           width: isFocused ? 1.5 : 1,
         ),
 
-        // 🔥 Glow
+        // Glow
         boxShadow: isFocused
             ? [
           BoxShadow(
@@ -72,7 +72,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
             : [],
       ),
       child: TextField(
-        focusNode: _focusNode, // ✅ IMPORTANT FIX
+        focusNode: _focusNode,
         controller: widget.controller,
         keyboardType: widget.keyboardType,
         obscureText: widget.obscureText ? isHidden : false,
@@ -83,13 +83,13 @@ class _CustomTextFieldState extends State<CustomTextField> {
           hintText: widget.hint,
           hintStyle: const TextStyle(color: Colors.white54),
 
-          // 🔥 Icon color change
+          // Icon color change
           prefixIcon: Icon(
             widget.icon,
             color: isFocused ? Colors.cyanAccent : Colors.white70,
           ),
 
-          // 👁️ Password toggle
+          //  Password toggle
           suffixIcon: widget.obscureText
               ? IconButton(
             icon: Icon(
