@@ -1,31 +1,145 @@
-# quiz_app_with_gemini
+# 🧠 QuizOpro
 
-A new Flutter project.
+<div align="center">
 
-## Getting Started
-![simulator_screenshot_1082BC76-794D-4E9F-AC62-AD917F014971.png](../../../../var/folders/1b/wdhtl0m57sl5m0b4dspxf5x00000gn/T/simulator_screenshot_1082BC76-794D-4E9F-AC62-AD917F014971.png)
-This project is a starting point for a Flutter application.
-![simulator_screenshot_7E503651-EEB0-4DC2-B829-F43CC6745931.png](../../../../var/folders/1b/wdhtl0m57sl5m0b4dspxf5x00000gn/T/simulator_screenshot_7E503651-EEB0-4DC2-B829-F43CC6745931.png)
-![simulator_screenshot_B15BD1A2-D91B-43AE-9DFC-C196026BD581.png](../../../../var/folders/1b/wdhtl0m57sl5m0b4dspxf5x00000gn/T/simulator_screenshot_B15BD1A2-D91B-43AE-9DFC-C196026BD581.png)
-![simulator_screenshot_A630462C-9F87-47EC-B3C6-CBC8F99E8DAC.png](../../../../var/folders/1b/wdhtl0m57sl5m0b4dspxf5x00000gn/T/simulator_screenshot_A630462C-9F87-47EC-B3C6-CBC8F99E8DAC.png)
-![simulator_screenshot_5E539A16-1007-432A-9BBC-1D12482F6715.png](../../../../var/folders/1b/wdhtl0m57sl5m0b4dspxf5x00000gn/T/simulator_screenshot_5E539A16-1007-432A-9BBC-1D12482F6715.png)
+### 🚀 Smart Quiz App Powered by AI
 
+An interactive Flutter quiz application featuring AI-powered question generation, category-based quizzes, difficulty levels, and a clean responsive user interface.
 
-A few resources to get you started if this is your first Flutter project:
+Built using Flutter, Firebase, and Gemini API.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+</div>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
 
+## ✨ Features
 
+### 🎯 Smart Quiz Experience
+- Category-based quiz selection
+- Difficulty level support
+- Dynamic multiple-choice questions
+- Smooth and engaging user interface
+- Real-time score tracking
 
+### 🤖 AI-Powered Questions
+- Integrated Gemini API
+- Smart question generation
+- Dynamic quiz experience
 
-[//]: # (For Logo:-
-flutter pub get
-dart run flutter_launcher_icons
-flutter run 
-)
+### 📊 Performance Tracking
+- Score calculation
+- Result evaluation
+- Correct & incorrect answer analysis
+
+### 🔥 Firebase Integration
+- Cloud data handling
+- Real-time updates
+- Scalable architecture
+
+### 📱 Responsive UI
+- Modern design
+- Smooth user experience
+- Optimized for multiple screen sizes
+
+---
+
+## 📸 Screenshots
+
+> Screenshots will be added soon to showcase the complete UI and user experience of QuizOpro 🚀
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| Flutter | App Development |
+| Dart | Programming Language |
+| Firebase | Backend Services |
+| Gemini API | AI Question Generation |
+| REST API | Data Communication |
+
+## 📂 Project Structure
+
+```text
+lib/
+├── core/
+├── models/
+├── screens/
+├── services/
+├── widgets/
+├── utils/
+└── main.dart
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Before running the project, make sure you have:
+
+- Flutter SDK
+- Dart SDK
+- Android Studio / VS Code
+- Emulator or Physical Device
+
+---
+
+### Installation
+
+Clone the repository:
+
+bash git clone https://github.com/rahulkumarsah1999/Complete-QuizApp.git 
+
+Navigate to the project folder:
+
+bash cd Complete-QuizApp 
+
+Install dependencies:
+
+bash flutter pub get 
+
+Run the application:
+
+bash flutter run 
+
+---
+
+## 🔑 API Configuration
+
+If using Gemini API, add your API key inside your constants/config file.
+
+Example:
+
+dart const String geminiApiKey = "YOUR_API_KEY"; 
+
+---
+
+## 🎯 Future Improvements
+
+- 🏆 Leaderboard System
+- 👥 Multiplayer Quiz Mode
+- ☁️ Cloud Sync
+- 🔥 Daily Challenges
+- 🎙️ Voice-Based Quiz
+- 📈 Analytics Dashboard
+
+---
+
+## 👨‍💻 Developer
+
+### Rahul Kumar Sah
+
+Flutter Developer | Dart | UI/UX Enthusiast
+
+📧 Email: rkhhp713@gmail.com
+
+🐙 GitHub: https://github.com/rahulkumarsah1999
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a star ⭐ on GitHub.
+
+It motivates me to build more awesome projec
